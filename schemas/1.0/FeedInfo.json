@@ -69,7 +69,7 @@
             ],
             "properties": {
                 "data_source_id": {
-                    "description": "Unique identifier for the organization providing work zone data. This identifier is a Universally Unique IDentifier (UUID) as defined in [RFC 4122](https://datatracker.ietf.org/doc/html/rfc4122).",
+                    "description": "Unique identifier for the organization providing work zone data. This identifier is a Universally Unique Identifier (UUID) as defined in [RFC 4122](https://datatracker.ietf.org/doc/html/rfc4122).",
                     "type": "string"
                 },
                 "organization_name": {

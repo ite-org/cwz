@@ -43,7 +43,7 @@
             ],
             "properties": {
                 "id": {
-                    "description": "A unique identifier issued by the data feed provider to identify the field device. This identifier is a Universally Unique IDentifier (UUID) as defined in [RFC 4122](https://datatracker.ietf.org/doc/html/rfc4122).",
+                    "description": "A unique identifier issued by the data feed provider to identify the field device. This identifier is a Universally Unique Identifier (UUID) as defined in [RFC 4122](https://datatracker.ietf.org/doc/html/rfc4122).",
                     "type": "string"
                 },
                 "type": {
@@ -145,7 +145,7 @@
                     "description": "The direction of the road that the field device is on. This value indicates the direction of the traffic flow of the road, not a real heading angle."
                 },
                 "road_names": {
-                    "description": "A list of publicly known names of the road on which the field device is located. This may include the road number designated by a jurisdiction such as a county, state or interstate (e.g. I-5, VT 133).",
+                    "description": "A list of publicly known names of the road on which the field device is located. This may include the road number designated by a jurisdiction such as a county, state or interstate (e.g., I-5, VT 133).",
                     "type": "array",
                     "minItems": 1,
                     "items": {
@@ -409,7 +409,7 @@
         },
         "HybridSign": {
             "title": "Hybrid Sign Field Device",
-            "description": "A hybrid sign that contains static text (e.g. on an aluminum sign) along with a single electronic message display, used to provide information to travelers.",
+            "description": "A hybrid sign that contains static text (e.g., on an aluminum sign) along with a single electronic message display, used to provide information to travelers.",
             "type": "object",
             "allOf": [
                 {
@@ -513,7 +513,7 @@
         },
         "TrafficSensor": {
             "title": "Traffic Sensor Field Device",
-            "description": "A traffic sensor deployed on a roadway which captures traffic metrics (e.g. speed, volume, occupancy) over a collection interval.",
+            "description": "A traffic sensor deployed on a roadway which captures traffic metrics (e.g., speed, volume, occupancy) over a collection interval.",
             "type": "object",
             "allOf": [
                 {

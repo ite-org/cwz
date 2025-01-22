@@ -12,7 +12,7 @@
     ],
     "properties": {
         "id": {
-            "description": "A unique identifier issued by the data feed provider to identify the CWZ road event. This identifier is a Universally Unique IDentifier (UUID) as defined in [RFC 4122](https://datatracker.ietf.org/doc/html/rfc4122).",
+            "description": "A unique identifier issued by the data feed provider to identify the CWZ road event. This identifier is a Universally Unique Identifier (UUID) as defined in [RFC 4122](https://datatracker.ietf.org/doc/html/rfc4122).",
             "type": "string"
         },
         "type": {
@@ -132,12 +132,12 @@
                             "type": "boolean"
                         },
                         "start_date": {
-                            "description": "The UTC date and time (formatted according to RFC 3339, Section 5.6) when the road event begins (e.g. 2020-11-03T19:37:00Z).",
+                            "description": "The UTC date and time (formatted according to RFC 3339, Section 5.6) when the road event begins (e.g., 2020-11-03T19:37:00Z).",
                             "type": "string",
                             "format": "date-time"
                         },
                         "end_date": {
-                            "description": "The UTC date and time (formatted according to RFC 3339, Section 5.6) when the road event ends (e.g. 2020-11-03T19:37:00Z).",
+                            "description": "The UTC date and time (formatted according to RFC 3339, Section 5.6) when the road event ends (e.g., 2020-11-03T19:37:00Z).",
                             "type": "string",
                             "format": "date-time"
                         },
@@ -264,12 +264,12 @@
                             "$ref": "#/definitions/UnitOfMeasurement"
                         },
                         "start_date": {
-                            "description": "The UTC date and time (formatted according to RFC 3339, Section 5.6) when the road event begins (e.g. 2020-11-03T19:37:00Z).",
+                            "description": "The UTC date and time (formatted according to RFC 3339, Section 5.6) when the road event begins (e.g., 2020-11-03T19:37:00Z).",
                             "type": "string",
                             "format": "date-time"
                         },
                         "end_date": {
-                            "description": "The UTC date and time (formatted according to RFC 3339, Section 5.6) when the road event ends (e.g. 2020-11-03T19:37:00Z).",
+                            "description": "The UTC date and time (formatted according to RFC 3339, Section 5.6) when the road event ends (e.g., 2020-11-03T19:37:00Z).",
                             "type": "string",
                             "format": "date-time"
                         },
@@ -311,11 +311,11 @@
                     }
                 },
                 "project_id": {
-                    "description": " An identifier for the project that the event is part of. A project is the highest-level representation of an area where road work takes place and may cover multiple roadways if adjacent or intersecting. A project will contain one or more RoadEventFeatures. This project ID does not correspond to an object in a WorkZoneFeed. It is used to group events (and devices, see FieldDeviceCoreDetails). This identifier is a Universally Unique IDentifier (UUID) as defined in RFC 4122 to guarantee uniqueness between feeds and over time.",
+                    "description": " An identifier for the project that the event is part of. A project is the highest-level representation of an area where road work takes place and may cover multiple roadways if adjacent or intersecting. A project will contain one or more RoadEventFeatures. This project ID does not correspond to an object in a WorkZoneFeed. It is used to group events (and devices, see FieldDeviceCoreDetails). This identifier is a Universally Unique Identifier (UUID) as defined in RFC 4122 to guarantee uniqueness between feeds and over time.",
                     "type": "string"
                 },
                 "road_names": {
-                    "description": "A list of publicly known names of the road on which the event occurs. This may include the road number designated by a jurisdiction such as a county, state or interstate (e.g. I-5, VT 133).",
+                    "description": "A list of publicly known names of the road on which the event occurs. This may include the road number designated by a jurisdiction such as a county, state or interstate (e.g., I-5, VT 133).",
                     "type": "array",
                     "minItems": 1,
                     "items": {
@@ -334,7 +334,7 @@
                     "type": "string"
                 },
                 "creation_date": {
-                    "description": "The UTC date and time (formatted according to RFC 3339, Section 5.6) when the road event was created (e.g. 2020-11-03T19:37:00Z).",
+                    "description": "The UTC date and time (formatted according to RFC 3339, Section 5.6) when the road event was created (e.g., 2020-11-03T19:37:00Z).",
                     "type": "string",
                     "format": "date-time"
                 },
