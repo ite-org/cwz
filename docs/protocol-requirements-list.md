@@ -254,10 +254,10 @@ In addition to the Conformance and Support columns discussed in Sections 3.10.1.
 ||| 3.2.4.5 | [UTC Date-Time Format Specification](system-requirements.md#3245-utc-date-time-format-specification) | M| Yes||
 | **2.5.2** | [**Data Exchange Needs**](concept-of-operations.md#252-data-exchange-needs) ||||||
 | **2.5.2.1**| [**Zone Metadata**](concept-of-operations.md#2521-zone-metadata)||||||
-| 2.5.2.1.1 | [Zone Data Standard Version](concept-of-operations.md#25211-zone-metadata--zone-data-standard-version) ||||||
+| 2.5.2.1.1 | [Zone Data Standard Version](concept-of-operations.md#25211-zone-metadata-zone-data-standard-version) ||||||
 ||| **3.5.1** | [**Contents of FeedInfo**](system-requirements.md#351-contents-of-feedinfo)||||
 ||| 3.5.1 f)| [version](system-requirements.md#351f)| M| Yes||
-| 2.5.2.1.2 | [Zone Identifier](concept-of-operations.md#25212-zone-metadata--zone-identifier) ||||||
+| 2.5.2.1.2 | [Zone Identifier](concept-of-operations.md#25212-zone-metadata-zone-identifier) ||||||
 | 2.5.2.1.2.1| [Support Zone Identifier for Zones](concept-of-operations.md#252121-support-zone-identifier-for-zones) ||||||
 ||| 3.2.4.4 | [Data Source ID Referential Integrity](system-requirements.md#3244-data-source-id-referential-integrity) | M| Yes||
 ||| 3.2.4.6 | [UUID Format Specification](system-requirements.md#3246-uuid-format-specification) | M| Yes||
@@ -276,21 +276,21 @@ In addition to the Conformance and Support columns discussed in Sections 3.10.1.
 ||| 3.2.4.6 | [UUID Format Specification](system-requirements.md#3246-uuid-format-specification) | M| Yes||
 ||| **3.6.1** | [**Contents of RoadEventFeature**](system-requirements.md#361-contents-of-roadeventfeature) ||||
 ||| 3.6.1 a)| [id](system-requirements.md#361a)| M| Yes||
-| 2.5.2.1.3 | [Zone Activity Type](concept-of-operations.md#25213-zone-metadata--zone-activity-type) ||||||
+| 2.5.2.1.3 | [Zone Activity Type](concept-of-operations.md#25213-zone-metadata-zone-activity-type) ||||||
 ||| **3.6.2** | [**Contents of WorkZoneRoadEvent**](system-requirements.md#362-contents-of-workzoneroadevent) ||||
 ||| 3.6.2 s)| [types\_of\_work](system-requirements.md#362s) | O| Yes / No ||
-| 2.5.2.1.4 | [Zone Data Timestamp](concept-of-operations.md#25214-zone-metadata--zone-data-timestamp) ||||||
+| 2.5.2.1.4 | [Zone Data Timestamp](concept-of-operations.md#25214-zone-metadata-zone-data-timestamp) ||||||
 ||| **3.6.4** | [**Contents of RoadEventCoreDetails**](system-requirements.md#364-contents-of-roadeventcoredetails) ||||
 ||| 3.6.4 i)| [creation\_date](system-requirements.md#364i) | O| Yes / No ||
 ||| 3.6.4 j)| [update\_date](system-requirements.md#364j) | O| Yes / No ||
-| 2.5.2.1.5 | [Zone Data Source](concept-of-operations.md#25215-zone-metadata--zone-data-source) ||||||
+| 2.5.2.1.5 | [Zone Data Source](concept-of-operations.md#25215-zone-metadata-zone-data-source) ||||||
 ||| 3.2.4.4 | [Data Source ID Referential Integrity](system-requirements.md#3244-data-source-id-referential-integrity) | M| Yes||
 ||| **3.5.1** | [**Contents of FeedInfo**](system-requirements.md#351-contents-of-feedinfo)||||
 ||| 3.5.1 h)| [data\_sources](system-requirements.md#351h)| M| Yes||
 ||| **3.6.4** | [**Contents of RoadEventCoreDetails**](system-requirements.md#364-contents-of-roadeventcoredetails) ||||
 ||| 3.6.4 a)| [data\_source\_id](system-requirements.md#364a)| M| Yes||
 | **2.5.2.2**| [**Zone Location**](concept-of-operations.md#2522-zone-location)||||||
-| 2.5.2.2.1 | [Zone Geometry](concept-of-operations.md#25221-zone-location--geometry) ||||||
+| 2.5.2.2.1 | [Zone Geometry](concept-of-operations.md#25221-zone-location-geometry) ||||||
 ||| 3.2.4.1 | [Event Segments Follow Attribute Changes](system-requirements.md#3241-event-segments-follow-attribute-changes) | M| Yes||
 ||| **3.6.1** | [**Contents of RoadEventFeature**](system-requirements.md#361-contents-of-roadeventfeature) ||||
 ||| 3.6.1 d)| [geometry](system-requirements.md#361d) | M| Yes||
@@ -298,46 +298,46 @@ In addition to the Conformance and Support columns discussed in Sections 3.10.1.
 ||| 3.6.2 g)| [is\_start\_position\_verified](system-requirements.md#362g) | M| Yes||
 ||| 3.6.2 h)| [is\_end\_position\_verified](system-requirements.md#362h)| M| Yes||
 | **2.5.2.3**| [**Zone Schedule**](concept-of-operations.md#2523-zone-schedule)||||||
-| 2.5.2.3.1 | [Date Times](concept-of-operations.md#25231-zone-schedule--date-times) ||||||
+| 2.5.2.3.1 | [Date Times](concept-of-operations.md#25231-zone-schedule-date-times) ||||||
 ||| **3.6.2** | [**Contents of WorkZoneRoadEvent**](system-requirements.md#362-contents-of-workzoneroadevent) ||||
 ||| 3.6.2 i)| [start\_date](system-requirements.md#362i) | M| Yes||
 ||| 3.6.2 j)| [end\_date](system-requirements.md#362j) | M| Yes||
 ||| 3.6.2 k)| [is\_start\_date\_verified](system-requirements.md#362k) | M| Yes||
 ||| 3.6.2 l)| [is\_end\_date\_verified](system-requirements.md#362l) | M| Yes||
 | **2.5.2.4**| [**Zone Segmentation**](concept-of-operations.md#2524-zone-segmentation) ||||||
-| 2.5.2.4.1 | [Geometry](concept-of-operations.md#25241-zone-segmentation--geometry)||||||
+| 2.5.2.4.1 | [Geometry](concept-of-operations.md#25241-zone-segmentation-geometry)||||||
 ||| **3.6.4** | [**Contents of RoadEventCoreDetails**](system-requirements.md#364-contents-of-roadeventcoredetails) ||||
 ||| 3.6.4 d)| [project\_id](system-requirements.md#364d) | O| Yes / No ||
 ||| **3.7.3** | [**Contents of FieldDeviceCoreDetails**](system-requirements.md#373-contents-of-fielddevicecoredetails)||||
 ||| 3.7.3 m)| [project\_id](system-requirements.md#373m) | O| Yes / No ||
-| 2.5.2.4.2 | [Date Times](concept-of-operations.md#25242-zone-segmentation--date-times) ||||||
+| 2.5.2.4.2 | [Date Times](concept-of-operations.md#25242-zone-segmentation-date-times) ||||||
 ||| **3.6.4** | [**Contents of RoadEventCoreDetails**](system-requirements.md#364-contents-of-roadeventcoredetails) ||||
 ||| 3.6.4 d)| [project\_id](system-requirements.md#364d) | O| Yes / No ||
 ||| **3.7.3** | [**Contents of FieldDeviceCoreDetails**](system-requirements.md#373-contents-of-fielddevicecoredetails)||||
 ||| 3.7.3 m)| [project\_id](system-requirements.md#373m) | O| Yes / No ||
 | **2.5.2.5**| [**Zone Status**](concept-of-operations.md#2525-zone-status) ||||||
-| 2.5.2.5.1 | [Is Active](concept-of-operations.md#25251-zone-status--is-active) ||||||
+| 2.5.2.5.1 | [Is Active](concept-of-operations.md#25251-zone-status-is-active) ||||||
 ||| **3.6.2** | [**Contents of WorkZoneRoadEvent**](system-requirements.md#362-contents-of-workzoneroadevent) ||||
 ||| 3.6.2 k)| [is\_start\_date\_verified](system-requirements.md#362k) | M| Yes||
 ||| 3.6.2 l)| [is\_end\_date\_verified](system-requirements.md#362l) | M| Yes||
-| 2.5.2.5.2 | [Length](concept-of-operations.md#25252-zone-status--length) ||||||
+| 2.5.2.5.2 | [Length](concept-of-operations.md#25252-zone-status-length) ||||||
 ||| **3.6.1** | [**Contents of RoadEventFeature**](system-requirements.md#361-contents-of-roadeventfeature) ||||
 ||| 3.6.1 d)| [geometry](system-requirements.md#361d) | M| Yes| Calculated using coordinate information contained in the linestring |
-| 2.5.2.5.3 | [Number of Lanes Open](concept-of-operations.md#25253-zone-status--number-of-lanes-open)||||||
+| 2.5.2.5.3 | [Number of Lanes Open](concept-of-operations.md#25253-zone-status-number-of-lanes-open)||||||
 ||| **3.6.8** | [**Contents of Lane**](system-requirements.md#368-contents-of-lane)||||
 ||| 3.6.8 b)| [status](system-requirements.md#368b) | M| Yes||
 ||| **3.6.17** | [**Enumeration of LaneStatus**](system-requirements.md#3617-enumeration-of-lanestatus)||||
-| 2.5.2.5.4 | [Ad-hoc (Unscheduled/Unplanned)](concept-of-operations.md#25254-zone-status--ad-hoc-unscheduledunplanned) ||||||
+| 2.5.2.5.4 | [Ad-hoc (Unscheduled/Unplanned)](concept-of-operations.md#25254-zone-status-ad-hoc-unscheduledunplanned) ||||||
 ||| **3.6.14** | [**Enumeration of VehicleImpact**](system-requirements.md#3614-enumeration-of-vehicleimpact)||||
 ||| **3.6.15** | [**Enumeration of RestrictionType**](system-requirements.md#3615-enumeration-of-restrictiontype) ||||
-| 2.5.2.5.5 | [Is Rolling/Moving](concept-of-operations.md#25255-zone-status--is-rollingmoving)||||||
+| 2.5.2.5.5 | [Is Rolling/Moving](concept-of-operations.md#25255-zone-status-is-rollingmoving)||||||
 ||| **3.6.2** | [**Contents of WorkZoneRoadEvent**](system-requirements.md#362-contents-of-workzoneroadevent) ||||
 ||| 3.6.2 m)| [work\_zone\_type](system-requirements.md#362m)| O| Yes / No ||
 ||| **3.6.8** | [**Contents of Lane**](system-requirements.md#368-contents-of-lane)||||
 ||| 3.6.8 a)| [order](system-requirements.md#368a) | M| Yes||
 ||| **3.6.13** | [**Enumeration of WorkZoneType**](system-requirements.md#3613-enumeration-of-workzonetype) ||||
 | **2.5.2.6**| [**Zone Lanes**](concept-of-operations.md#2526-zone-lanes)||||||
-| 2.5.2.6.1 | [Numbering and Identification](concept-of-operations.md#25261-zone-lanes--numbering-and-identification)||||||
+| 2.5.2.6.1 | [Numbering and Identification](concept-of-operations.md#25261-zone-lanes-numbering-and-identification)||||||
 ||| 3.2.4.2 | [WorkZoneRoadEvent Lanes](system-requirements.md#3242-workzoneroadevent-lanes)| M| Yes||
 | 2.5.2.6.1.1| [Nationally Consistent Method of Lane Numbering](concept-of-operations.md#252611-lane-information) ||||||
 ||| 3.2.4.3 | [Lane Order](system-requirements.md#3243-lane-order) | M| Yes||
@@ -350,7 +350,7 @@ In addition to the Conformance and Support columns discussed in Sections 3.10.1.
 ||| 3.6.2 t)| [lanes](system-requirements.md#362t) | O| Yes / No ||
 ||| **3.6.8** | [**Contents of Lane**](system-requirements.md#368-contents-of-lane)||||
 ||| 3.6.8 a)| [order](system-requirements.md#368a) | M| Yes||
-| 2.5.2.6.2 | [Lane Type](concept-of-operations.md#25262-zone-lanes--lane-type) ||||||
+| 2.5.2.6.2 | [Lane Type](concept-of-operations.md#25262-zone-lanes-lane-type) ||||||
 ||| **3.6.2** | [**Contents of WorkZoneRoadEvent**](system-requirements.md#362-contents-of-workzoneroadevent) ||||
 ||| 3.6.2 t)| [lanes](system-requirements.md#362t) | O| Yes / No ||
 ||| **3.6.8** | [**Contents of Lane**](system-requirements.md#368-contents-of-lane)||||
@@ -358,7 +358,7 @@ In addition to the Conformance and Support columns discussed in Sections 3.10.1.
 ||| 3.6.8 c)| [type](system-requirements.md#368c)| M| Yes||
 ||| **3.6.17** | [**Enumeration of LaneStatus**](system-requirements.md#3617-enumeration-of-lanestatus)||||
 ||| **3.6.18** | [**Enumeration of LaneType**](system-requirements.md#3618-enumeration-of-lanetype) ||||
-| 2.5.2.6.2.1| [Lane is Drivable](concept-of-operations.md#252621-zone-lanes--lane-is-drivable) ||||||
+| 2.5.2.6.2.1| [Lane is Drivable](concept-of-operations.md#252621-zone-lanes-lane-is-drivable) ||||||
 ||| **3.6.2** | [**Contents of WorkZoneRoadEvent**](system-requirements.md#362-contents-of-workzoneroadevent) ||||
 ||| 3.6.2 t)| [lanes](system-requirements.md#362t) | O| Yes / No ||
 ||| **3.6.8** | [**Contents of Lane**](system-requirements.md#368-contents-of-lane)||||
@@ -366,7 +366,7 @@ In addition to the Conformance and Support columns discussed in Sections 3.10.1.
 ||| 3.6.8 c)| [type](system-requirements.md#368c)| M| Yes||
 ||| **3.6.17** | [**Enumeration of LaneStatus**](system-requirements.md#3617-enumeration-of-lanestatus)||||
 ||| **3.6.18** | [**Enumeration of LaneType**](system-requirements.md#3618-enumeration-of-lanetype) ||||
-| 2.5.2.6.2.2| [Special Use Lane](concept-of-operations.md#252622-zone-lanes--special-use) ||||||
+| 2.5.2.6.2.2| [Special Use Lane](concept-of-operations.md#252622-zone-lanes-special-use) ||||||
 ||| **3.6.2** | [**Contents of WorkZoneRoadEvent**](system-requirements.md#362-contents-of-workzoneroadevent) ||||
 ||| 3.6.2 t)| [lanes](system-requirements.md#362t) | O| Yes / No ||
 ||| **3.6.8** | [**Contents of Lane**](system-requirements.md#368-contents-of-lane)||||
@@ -374,7 +374,7 @@ In addition to the Conformance and Support columns discussed in Sections 3.10.1.
 ||| 3.6.8 c)| [type](system-requirements.md#368c)| M| Yes||
 ||| **3.6.17** | [**Enumeration of LaneStatus**](system-requirements.md#3617-enumeration-of-lanestatus)||||
 ||| **3.6.18** | [**Enumeration of LaneType**](system-requirements.md#3618-enumeration-of-lanetype) ||||
-| 2.5.2.6.2.3| [Reversible Lane](concept-of-operations.md#252623-zone-lanes--reversible-lane) ||||||
+| 2.5.2.6.2.3| [Reversible Lane](concept-of-operations.md#252623-zone-lanes-reversible-lane) ||||||
 ||| **3.6.2** | [**Contents of WorkZoneRoadEvent**](system-requirements.md#362-contents-of-workzoneroadevent) ||||
 ||| 3.6.2 t)| [lanes](system-requirements.md#362t) | O| Yes / No ||
 ||| **3.6.8** | [**Contents of Lane**](system-requirements.md#368-contents-of-lane)||||
@@ -382,17 +382,17 @@ In addition to the Conformance and Support columns discussed in Sections 3.10.1.
 ||| 3.6.8 c)| [type](system-requirements.md#368c)| M| Yes||
 ||| **3.6.17** | [**Enumeration of LaneStatus**](system-requirements.md#3617-enumeration-of-lanestatus)||||
 ||| **3.6.18** | [**Enumeration of LaneType**](system-requirements.md#3618-enumeration-of-lanetype) ||||
-| 2.5.2.6.3 | [CVE Roadside Safety Applications](concept-of-operations.md#25263-zone-lanes--connected-vehicle-environment-roadside-safety-applications) ||||||
+| 2.5.2.6.3 | [CVE Roadside Safety Applications](concept-of-operations.md#25263-zone-lanes-connected-vehicle-environment-roadside-safety-applications) ||||||
 ||| **3.6.1** | [**Contents of RoadEventFeature**](system-requirements.md#361-contents-of-roadeventfeature) ||||
 ||| 3.6.1 d)| [geometry](system-requirements.md#361d) | M| Yes||
 ||| **3.7.14** | [**Contents of RoadsideUnit**](system-requirements.md#3714-contents-of-roadsideunit)||||
 ||| 3.7.14 b) | [message\_types](system-requirements.md#3714b) | O| Yes / No ||
-| 2.5.2.6.4 | [Lane Tapers](concept-of-operations.md#25264-zone-lanes--lane-tapers)||||||
+| 2.5.2.6.4 | [Lane Tapers](concept-of-operations.md#25264-zone-lanes-lane-tapers)||||||
 ||| 3.2.4.1 | [Event Segments Follow Lane Geometry Changes](system-requirements.md#3241-event-segments-follow-attribute-changes)| M| Yes||
 ||| **3.6.2** | [**Contents of WorkZoneRoadEvent**](system-requirements.md#362-contents-of-workzoneroadevent) ||||
 ||| 3.6.2 n)| [vehicle\_impact](system-requirements.md#362n) | M| Yes||
 ||| **3.6.17** | [**Enumeration of LaneStatus**](system-requirements.md#3617-enumeration-of-lanestatus)||||
-| 2.5.2.6.5 | [Lane Closure Status](concept-of-operations.md#25265-zone-lanes--lane-closure-status) ||||||
+| 2.5.2.6.5 | [Lane Closure Status](concept-of-operations.md#25265-zone-lanes-lane-closure-status) ||||||
 ||| **3.6.2** | [**Contents of WorkZoneRoadEvent**](system-requirements.md#362-contents-of-workzoneroadevent) ||||
 ||| 3.6.2 t)| [lanes](system-requirements.md#362t) | O| Yes / No ||
 ||| **3.6.8** | [**Contents of Lane**](system-requirements.md#368-contents-of-lane)||||
@@ -400,22 +400,22 @@ In addition to the Conformance and Support columns discussed in Sections 3.10.1.
 ||| 3.6.8 b)| [status](system-requirements.md#368b) | M| Yes||
 ||| **3.6.17** | [**Enumeration of LaneStatus**](system-requirements.md#3617-enumeration-of-lanestatus)||||
 | **2.5.2.7**| [**Zone Speed Limit**](concept-of-operations.md#2527-zone-speed-limit)||||||
-| 2.5.2.7.1 | [Position/Geometry](concept-of-operations.md#25271-zone-speed-limit--positionsgeometry)||||||
+| 2.5.2.7.1 | [Position/Geometry](concept-of-operations.md#25271-zone-speed-limit-positionsgeometry)||||||
 ||| **3.6.1** | [**Contents of RoadEventFeature**](system-requirements.md#361-contents-of-roadeventfeature) ||||
 ||| 3.6.1 d)| [geometry](system-requirements.md#361d) | M| Yes||
-| 2.5.2.7.2 | [Speed Limit Change](concept-of-operations.md#25272-zone-speed-limit--speed-limit-change) ||||||
+| 2.5.2.7.2 | [Speed Limit Change](concept-of-operations.md#25272-zone-speed-limit-speed-limit-change) ||||||
 ||| **3.6.2** | [**Contents of WorkZoneRoadEvent**](system-requirements.md#362-contents-of-workzoneroadevent) ||||
 ||| 3.6.2 q)| [reduced\_speed\_limit\_kph](system-requirements.md#362q) | O| Yes / No ||
 | **2.5.2.8**| [**Zone Traffic Data**](concept-of-operations.md#2528-zone-traffic-data) ||||||
-| 2.5.2.8.1 | [Speed, Volume, and Occupancy](concept-of-operations.md#25281-zone-traffic--speed-volume-and-occupancy)||||||
+| 2.5.2.8.1 | [Speed, Volume, and Occupancy](concept-of-operations.md#25281-zone-traffic-speed-volume-and-occupancy)||||||
 ||| **3.7.11** | [**Contents of Traffic Sensor**](system-requirements.md#3711-contents-of-trafficsensor) ||||
 ||| 3.7.11 d) | [average\_speed\_kph](system-requirements.md#3711d) | O| Yes / No ||
 ||| 3.7.11 e) | [volume\_vph](system-requirements.md#3711e) | O| Yes / No ||
 ||| 3.7.11 f) | [occupancy\_percent](system-requirements.md#3711f)| O| Yes / No ||
-| 2.5.2.8.2 | [Queue Warning](concept-of-operations.md#25282-zone-traffic--queue-warning) ||||||
+| 2.5.2.8.2 | [Queue Warning](concept-of-operations.md#25282-zone-traffic-queue-warning) ||||||
 ||| **3.7.19** | [**Enumeration of FlashingBeaconFunction**](system-requirements.md#3719-enumeration-of-flashingbeaconfunction)||||
 | **2.5.2.9**| [**Zone Device**](concept-of-operations.md#2529-zone-device) ||||||
-| 2.5.2.9.1 | [Inventory and Status](concept-of-operations.md#25291-zone-device--inventory-and-status)||||||
+| 2.5.2.9.1 | [Inventory and Status](concept-of-operations.md#25291-zone-device-inventory-and-status)||||||
 ||| **3.7.2** | [**Contents of FieldDeviceFeature**](system-requirements.md#372-contents-of-fielddevicefeature)||||
 ||| 3.7.2 d)| [geometry](system-requirements.md#372d) | M| Yes||
 ||| **3.7.3** | [**Contents of FieldDeviceCoreDetails**](system-requirements.md#373-contents-of-fielddevicecoredetails)||||
@@ -425,24 +425,24 @@ In addition to the Conformance and Support columns discussed in Sections 3.10.1.
 ||| **3.7.17** | [**Enumeration of FieldDeviceType**](system-requirements.md#3717-enumeration-of-fielddevicetype) ||||
 ||| **3.7.18** | [**Enumeration of FieldDeviceStatus**](system-requirements.md#3718-enumeration-of-fielddevicestatus) ||||
 ||| **3.7.21** | [**Enumeration of MarkedLocationType**](system-requirements.md#3721-enumeration-of-markedlocationtype) ||||
-| 2.5.2.9.2 | [Location Marker Type](concept-of-operations.md#25292-zone-device--location-marker-type)||||||
+| 2.5.2.9.2 | [Location Marker Type](concept-of-operations.md#25292-zone-device-location-marker-type)||||||
 ||| **3.7.21** | [**Enumeration of MarkedLocationType**](system-requirements.md#3721-enumeration-of-markedlocationtype) ||||
-| 2.5.2.9.3 | [Device Type](concept-of-operations.md#25293-zone-device--device-type)||||||
+| 2.5.2.9.3 | [Device Type](concept-of-operations.md#25293-zone-device-device-type)||||||
 ||| **3.7.3** | [**Contents of FieldDeviceCoreDetails**](system-requirements.md#373-contents-of-fielddevicecoredetails)||||
 ||| 3.7.3 a)| [device\_type](system-requirements.md#373a) | M| Yes||
 ||| **3.7.17** | [**Enumeration of FieldDeviceType**](system-requirements.md#3717-enumeration-of-fielddevicetype) ||||
-| 2.5.2.9.4 | [Position/Geometry](concept-of-operations.md#25294-zone-device--positiongeometry)||||||
+| 2.5.2.9.4 | [Position/Geometry](concept-of-operations.md#25294-zone-device-positiongeometry)||||||
 ||| **3.7.2** | [**Contents of FieldDeviceFeature**](system-requirements.md#372-contents-of-fielddevicefeature)||||
 ||| 3.7.2 d)| [geometry](system-requirements.md#372d) | M| Yes||
-| 2.5.2.9.5 | [Device Status](concept-of-operations.md#25295-zone-device--device-status) ||||||
+| 2.5.2.9.5 | [Device Status](concept-of-operations.md#25295-zone-device-device-status) ||||||
 ||| **3.7.3** | [**Contents of FieldDeviceCoreDetails**](system-requirements.md#373-contents-of-fielddevicecoredetails)||||
 ||| 3.7.3 c)| [device\_status](system-requirements.md#373c) | M| Yes||
 ||| **3.7.18** | [**Enumeration of FieldDeviceStatus**](system-requirements.md#3718-enumeration-of-fielddevicestatus) ||||
-| 2.5.2.9.6 | [Zone Identifier](concept-of-operations.md#25296-zone-device--zone-identifier) ||||||
+| 2.5.2.9.6 | [Zone Identifier](concept-of-operations.md#25296-zone-device-zone-identifier) ||||||
 ||| **3.7.3** | [**Contents of FieldDeviceCoreDetails**](system-requirements.md#373-contents-of-fielddevicecoredetails)||||
 ||| 3.7.3 l)| [road\_event\_ids](system-requirements.md#373l)| O| Yes / No ||
 | **2.5.2.10** | [**Zone VRU Device**](concept-of-operations.md#25210-zone-vulnerable-road-users-vru-device) ||||||
-| 2.5.2.10.1 | [Worker Presence Status/Activity](concept-of-operations.md#252101-zone-vru-device--worker-presence-statusactivity)||||||
+| 2.5.2.10.1 | [Worker Presence Status/Activity](concept-of-operations.md#252101-zone-vru-device-worker-presence-statusactivity)||||||
 ||| **3.6.2** | [**Contents of WorkZoneRoadEvent**](system-requirements.md#362-contents-of-workzoneroadevent) ||||
 ||| 3.6.2 p)| [worker\_presence](system-requirements.md#362p)| O| Yes / No ||
 ||| **3.6.11** | [**Contents of WorkerPresence**](system-requirements.md#3611-contents-of-workerpresence) ||||
@@ -452,14 +452,14 @@ In addition to the Conformance and Support columns discussed in Sections 3.10.1.
 ||| 3.6.11 d) | [confidence](system-requirements.md#3611d) | O| Yes / No ||
 ||| 3.6.11 e) | [definition](system-requirements.md#3611e) | O| Yes / No ||
 ||| 3.6.11 f) | [other\_method](system-requirements.md#3611f) | WorkerMethod:O | Yes / No ||
-| 2.5.2.10.2 | [VRU Position/Geometry](concept-of-operations.md#252102-zone-vru-device--positiongeometry)||||||
+| 2.5.2.10.2 | [VRU Position/Geometry](concept-of-operations.md#252102-zone-vru-device-positiongeometry)||||||
 ||| **3.7.2** | [**Contents of FieldDeviceFeature**](system-requirements.md#372-contents-of-fielddevicefeature)||||
 ||| 3.7.2 d)| [Geometry](system-requirements.md#372d) | M| Yes||
 ||| **3.7.21** | [**Enumeration of MarkedLocationType**](system-requirements.md#3721-enumeration-of-markedlocationtype) ||||
 | **2.5.2.11** | [**Zone Work Vehicle Device**](concept-of-operations.md#25211-zone-work-vehicle-device)||||||
-| 2.5.2.11.1 | [Vehicle Type](concept-of-operations.md#252111-zone-work-vehicle-device--vehicle-type) ||||||
+| 2.5.2.11.1 | [Vehicle Type](concept-of-operations.md#252111-zone-work-vehicle-device-vehicle-type) ||||||
 ||| **3.7.21** | [**Enumeration of MarkedLocationType**](system-requirements.md#3721-enumeration-of-markedlocationtype) ||||
-| 2.5.2.11.2 | [Vehicle Position](concept-of-operations.md#252112-zone-work-vehicle-device--vehicle-position) ||||||
+| 2.5.2.11.2 | [Vehicle Position](concept-of-operations.md#252112-zone-work-vehicle-device-vehicle-position) ||||||
 ||| **3.7.2** | [**Contents of FieldDeviceFeature**](system-requirements.md#372-contents-of-fielddevicefeature)||||
 ||| 3.7.2 d)| [geometry](system-requirements.md#372d) | M| Yes||
 ||| **3.7.21** | [**Enumeration of MarkedLocationType**](system-requirements.md#3721-enumeration-of-markedlocationtype) ||||

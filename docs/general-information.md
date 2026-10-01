@@ -186,5 +186,4 @@ The abbreviations and acronyms used in this document are defined below.
 |UUID|Universally Unique Identifier|
 |WZDx|Work Zone Data Exchange Specification|
 |VRU|Vulnerable Road User|
-|||
 
